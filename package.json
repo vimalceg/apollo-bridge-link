@@ -16,7 +16,8 @@
     "precommit": "npm run lint && npm test",
     "prepush": "npm run lint && npm test",
     "semantic-release": "semantic-release",
-    "travis-deploy-once": "travis-deploy-once"
+    "travis-deploy-once": "travis-deploy-once",
+    "prepublish":"npm run build && npm run build:commonjs"
   },
   "author": "dacz",
   "license": "MIT",
